@@ -1,5 +1,32 @@
+# Web framework
 fastapi==0.123.0
+starlette==0.50.0
+pydantic==2.12.5
+typing-extensions==4.15.0
+annotated-doc==0.0.4
+
+# ASGI server
 uvicorn[standard]==0.23.0
-opencv-python-headless==4.12.0.88
+click==8.3.1
+h11==0.16.0
+httptools==0.7.1
+python-dotenv==1.2.1
+pyyaml==6.0.3
+uvloop==0.22.1
+watchfiles==1.1.1
+websockets==15.0.1
+
+# Core libraries
+numpy==1.26.0
+opencv-python-headless==4.13.0
 mediapipe==0.10.21
+absl-py==2.3.1
+attrs==25.4.0
+flatbuffers==25.9.23
+jax==0.8.1
+jaxlib==0.8.1
+matplotlib==3.10.7
+protobuf==4.24.3
+
+# Machine learning
 tensorflow==2.14.0
